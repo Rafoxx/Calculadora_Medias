@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #34303e;
+}
+
+header img {
+    width: 70px;
+}
+
+header {
+    background-color: gray;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 200px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 50px;
+}
+
+input,button {
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    font-size: 18px;
+    margin: 22px;
+    border: none;
+    height: 30px;
+}
+
+button {
+    background-color: #009432;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(8, 111, 8);
+}
+
+table {
+    justify-content: center;
+    border-collapse: collapse;
+    padding: 16px;
+    width: 100%;
+}
+
+thead th{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table td  {
+    padding: 24px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    background-color: black;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.aprovado {
+    background-color: #2ecc71;
+}
+
+.reprovado {
+    background-color: #c0392b
+}
+
